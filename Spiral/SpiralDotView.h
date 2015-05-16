@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SpiralDotView : UIView
-
+@property (nonatomic, strong) UIColor *dotColor;
+@property (nonatomic) CGFloat dotSpeedRPS;
+@property (nonatomic) CGFloat dotSpeedPixelsPerRevolution;
+-(void)start;
+-(void)stop;
 @end

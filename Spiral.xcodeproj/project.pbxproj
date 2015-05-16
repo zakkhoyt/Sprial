@@ -14,6 +14,7 @@
 		CF4560131B0702AA00754989 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4560121B0702AA00754989 /* Images.xcassets */; };
 		CF4560161B0702AA00754989 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF4560141B0702AA00754989 /* LaunchScreen.xib */; };
 		CF4560221B0702AA00754989 /* SpiralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4560211B0702AA00754989 /* SpiralTests.m */; };
+		CF45602D1B07037B00754989 /* SpiralDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF45602C1B07037B00754989 /* SpiralDotView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CF45601B1B0702AA00754989 /* SpiralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpiralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4560201B0702AA00754989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF4560211B0702AA00754989 /* SpiralTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpiralTests.m; sourceTree = "<group>"; };
+		CF45602B1B07037B00754989 /* SpiralDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiralDotView.h; sourceTree = "<group>"; };
+		CF45602C1B07037B00754989 /* SpiralDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpiralDotView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				CF4560121B0702AA00754989 /* Images.xcassets */,
 				CF4560141B0702AA00754989 /* LaunchScreen.xib */,
 				CF4560051B0702AA00754989 /* Supporting Files */,
+				CF45602B1B07037B00754989 /* SpiralDotView.h */,
+				CF45602C1B07037B00754989 /* SpiralDotView.m */,
 			);
 			path = Spiral;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				CF45600E1B0702AA00754989 /* ViewController.m in Sources */,
 				CF45600B1B0702AA00754989 /* AppDelegate.m in Sources */,
 				CF4560081B0702AA00754989 /* main.m in Sources */,
+				CF45602D1B07037B00754989 /* SpiralDotView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
